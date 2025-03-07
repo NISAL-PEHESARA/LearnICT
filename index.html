@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn ICT</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">DNPS PROJECT</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#tutorials">Tutorials</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle">🌙</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content animate__animated animate__fadeInLeft">
+            <h1>Learn ICT from Basic!</h1>
+            <p>Your ultimate guide to mastering Information and Communication Technology.</p>
+            <a href="#tutorials" class="cta-button">Get Started</a>
+        </div>
+        <div class="hero-animation animate__animated animate__fadeInRight">
+            <img src="C:\Users\NISAL PEHESARA\Desktop\web3\giphy.gif" alt="ICT Animation">
+        </div>
+    </section>
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Search tutorials...">
+        <button id="search-button"><i class="fas fa-search"></i></button>
+    </div>
+
+    <!-- Tutorials Section -->
+    <section class="tutorials" id="tutorials">
+        <h2>Featured Tutorials</h2>
+        <div class="grid-container">
+            <div class="grid-item animate__animated animate__fadeInUp">
+                <img src="C:\Users\NISAL PEHESARA\Desktop\web3\a.webp" alt="Tutorial 1">
+                <h4>Introduction to ICT</h4>
+                <p>Learn the basics of ICT.</p>
+            </div>
+            <div class="grid-item animate__animated animate__fadeInUp">
+                <img src="C:\Users\NISAL PEHESARA\Desktop\web3\b.webp" alt="Tutorial 2">
+                <h4>Programming Basics</h4>
+                <p>Start coding with Python.</p>
+            </div>
+            <div class="grid-item animate__animated animate__fadeInUp">
+                <img src="C:\Users\NISAL PEHESARA\Desktop\web3\c.webp" alt="Tutorial 3">
+                <h4>Web Development</h4>
+                <p>Build your first website.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <div class="newsletter">
+        <h3>Subscribe to Our Newsletter</h3>
+        <form id="newsletter-form">
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2>What Our Students Say</h2>
+        <div class="testimonial-container">
+            <div class="testimonial animate__animated animate__fadeInLeft">
+                <p>"This website helped me learn ICT from scratch. Highly recommended!"</p>
+                <h4>- John Doe</h4>
+            </div>
+            <div class="testimonial animate__animated animate__fadeInRight">
+                <p>"The tutorials are easy to follow and very informative."</p>
+                <h4>- Jane Smith</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Progress Tracker -->
+    <div class="progress-tracker">
+        <h3>Your Progress</h3>
+        <div class="progress-bar">
+            <div class="progress" style="width: 60%;"></div>
+        </div>
+        <p>60% completed</p>
+    </div>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item animate__animated animate__fadeInUp">
+            <h3>What is ICT?</h3>
+            <p>ICT stands for Information and Communication Technology. It includes technologies like computers, the internet, and telecommunications.</p>
+        </div>
+        <div class="faq-item animate__animated animate__fadeInUp">
+            <h3>Is this website free?</h3>
+            <p>Yes, all tutorials and resources on this website are completely free.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2025 Nisal Pehesara Somarathne. All rights reserved.</p>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
