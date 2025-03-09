@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Basics</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+            color: #333;
+            line-height: 1.8;
+        }
+
+        header {
+            background: linear-gradient(135deg, #ff6f61, #ffcc00);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin: 0;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: #ff6f61;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #ff6f61;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .section {
+            margin-bottom: 40px;
+            animation: slideIn 1s ease-in-out;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: #f9f9f9;
+            margin: 10px 0;
+            padding: 15px;
+            border-left: 5px solid #ff6f61;
+            border-radius: 5px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        ul li:hover {
+            transform: translateX(10px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        code {
+            background: #f4f4f4;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-family: 'Courier New', Courier, monospace;
+            color: #ff6f61;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #ff6f61;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Programming Basics</h1>
+    </header>
+
+    <div class="container">
+        <!-- What is Programming? -->
+        <div class="section">
+            <h2>What is Programming?</h2>
+            <p>Programming is the process of writing instructions for computers to perform specific tasks. These instructions are written in a programming language, such as Python, Java, or C++.</p>
+        </div>
+
+        <!-- Why Learn Programming? -->
+        <div class="section">
+            <h2>Why Learn Programming?</h2>
+            <p>Programming is a valuable skill in today's digital world. Here are some reasons to learn programming:</p>
+            <ul>
+                <li><strong>Problem-Solving:</strong> Programming teaches you how to break down problems and find solutions.</li>
+                <li><strong>Career Opportunities:</strong> High demand for programmers in various industries.</li>
+                <li><strong>Creativity:</strong> Build apps, websites, games, and more.</li>
+                <li><strong>Automation:</strong> Automate repetitive tasks to save time.</li>
+            </ul>
+        </div>
+
+        <!-- Basic Programming Concepts -->
+        <div class="section">
+            <h2>Basic Programming Concepts</h2>
+            <p>Here are some fundamental concepts every beginner should know:</p>
+            <ul>
+                <li><strong>Variables:</strong> Containers for storing data values.</li>
+                <li><strong>Data Types:</strong> Types of data, such as integers, strings, and booleans.</li>
+                <li><strong>Conditionals:</strong> Decision-making using <code>if</code>, <code>else</code>, and <code>switch</code> statements.</li>
+                <li><strong>Loops:</strong> Repeating tasks using <code>for</code>, <code>while</code>, and <code>do-while</code> loops.</li>
+                <li><strong>Functions:</strong> Reusable blocks of code that perform specific tasks.</li>
+            </ul>
+        </div>
+
+        <!-- Popular Programming Languages -->
+        <div class="section">
+            <h2>Popular Programming Languages</h2>
+            <p>Here are some of the most popular programming languages:</p>
+            <ul>
+                <li><strong>Python:</strong> Easy-to-learn language for beginners, used in web development, data science, and AI.</li>
+                <li><strong>JavaScript:</strong> The language of the web, used for front-end and back-end development.</li>
+                <li><strong>Java:</strong> A versatile language used in Android development and enterprise applications.</li>
+                <li><strong>C++:</strong> A powerful language for game development and system programming.</li>
+                <li><strong>Ruby:</strong> Known for its simplicity and used in web development with Ruby on Rails.</li>
+            </ul>
+        </div>
+
+        <!-- Getting Started -->
+        <div class="section">
+            <h2>Getting Started</h2>
+            <p>Ready to start your programming journey? Follow these steps:</p>
+            <ul>
+                <li>Choose a programming language to learn (e.g., Python for beginners).</li>
+                <li>Set up your development environment (e.g., install Python and a code editor like VS Code).</li>
+                <li>Learn the basics (variables, conditionals, loops, functions).</li>
+                <li>Practice by building small projects (e.g., a calculator or a to-do list app).</li>
+                <li>Join online communities and forums for support and collaboration.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Created with ❤️ by <a href="#" target="_blank">Your Name</a></p>
+    </footer>
+</body>
+</html>
